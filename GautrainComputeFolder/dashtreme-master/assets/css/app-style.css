@@ -3376,6 +3376,11 @@ table.grid td {
     color: #fff !important;
 }
 
+.map-chart-container{
+    position:relative;
+    height:400px;
+}
+
  .chart-container-1{
 	 position:relative;
 	 height:260px;
