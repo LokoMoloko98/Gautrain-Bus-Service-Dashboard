@@ -312,7 +312,7 @@ hr {
 
 /* Page Content Wrapper */
 .content-wrapper {
-    margin-left: 250px;
+    
 	padding-top: 70px;
 	padding-left: 10px;
     padding-right: 10px;
@@ -641,7 +641,7 @@ body.bg-theme15 {
   width: 100%;
   height: 60px;
   line-height: 60px;
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2)
 }
 
@@ -651,14 +651,14 @@ body.bg-theme15 {
 	display: inline-block;
 	text-transform: uppercase;
 	position: relative;
-    top: 3px;
+    top: 0px;
 	font-weight: 400;
 	text-align: center;
 	line-height:50px;
 }
 
 .logo-icon{
-    width: 35px;
+    width: 70px;
     margin-right: 5px;
 }
 
@@ -2998,7 +2998,7 @@ table.grid td {
 [class*="icheck-material"] {
   min-height: 22px;
   margin-top: 6px;
-  margin-bottom: 6px 
+  margin-bottom: 6px; 
   padding-left: 0px; }
   [class*="icheck-material"] > label {
     padding-left: 29px !important;
