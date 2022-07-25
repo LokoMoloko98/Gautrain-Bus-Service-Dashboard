@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+    
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		.leaflet-container {
+			height: 600px;
+			width: 800px;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	
+    </style>
+
+    <title>Gautrain Bus GeoTracker</title>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+    
+        // initialize the map
+        var map = L.map('map').setView([-26.0415, 28.1195], 15);
+      
+        // load a tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+	
+	var theIcon = L.icon({
+		iconUrl: "bus-icon-13002.jpg",
+		//shadowUrl: "images/marker-shadow.png",
+		iconSize: [15, 15]
+	})
+	
+        function onEachFeature(feature, layer) {
+        // does this feature have a property named popupContent?
+        if (feature.properties && feature.properties.busId) {
+            layer.bindTooltip("Bus ID: " + feature.properties.busId );
+        }}
+
+	 var boundlines = [
+            {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                        [
+                            28.116,
+                            -26.034
+                        ],
+                        [
+                            28.123,
+                            -26.034
+                        ],
+                        [
+                            28.123,
+                            -26.049
+                        ],
+                        [
+                            28.116,
+                            -26.049
+                        ],
+                        [
+                            28.116,
+                            -26.034
+                        ]
+                        ]
+                    }
+                    }
+                ]
+            }
+        ];
+	
+	var layer = L.geoJSON(boundlines,{
+		pointToLayer: function(feature, latlng){
+			return L.marker(latlng, {icon: theIcon});
+		}
+	})
+
+	layer.bindTooltip(function (layer){ 
+		return "Bus ID: " + layer.feature.properties.busId + '<br> y = ' +layer.feature.geometry.coordinates[1] + '<br> x = ' + layer.feature.geometry.coordinates[0] + '<br> GPS Last updated Date: ' + layer.feature.properties.GPSLastupdatedDate + '<br> GPS Last updated Time: ' + layer.feature.properties.GPSLastupdatedTime + '<br> TimeStamp: ' + layer.feature.properties.Timestamp;
+	}).addTo(map)
+	
+        $(function() {
+		function update() {
+			map.removeLayer(layer)
+			$.getJSON("index.geojson").done(function (data) {
+				console.log(data);
+				layer.addData(data)
+				map.addLayer(layer)
+        		})
+		}
+		setInterval(update, 10000),
+		update();
+	});
+
+        </script>
+</body>
+</html>
