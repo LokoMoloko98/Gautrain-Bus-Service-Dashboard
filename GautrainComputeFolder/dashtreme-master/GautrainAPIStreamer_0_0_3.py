@@ -74,7 +74,8 @@ while(True):
 
 
     #write_geojson(geo_json, filename='API_call_outputs/GeolocateAPICall0.html', indent=4)
-    write_geojson(geo_json, filename='GautrainComputeFolder/dashtreme-master/index.geojson', indent=4)
+    write_geojson(geo_json, filename='GautrainComputeFolder/dashtreme-master/data.json', indent=4)
+    write_geojson(geo_json, filename='GautrainComputeFolder/dashtreme-master/data.geojson', indent=4)
 
     print(f'Wrote dataset number {gjnum} to outputs.')
     gjnum = gjnum + 1

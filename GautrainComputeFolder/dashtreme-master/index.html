@@ -141,7 +141,7 @@
                   $(function () {
                     function update() {
                       map.removeLayer(layer)
-                      $.getJSON("index.geojson").done(function (data) {
+                      $.getJSON("data.geojson").done(function (data) {
                         console.log(data);
                         layer.addData(data)
                         map.addLayer(layer)
@@ -338,7 +338,8 @@
         <div class="card">
           <div class="card-header">Recent Order Tables</div>
           <div class="table-responsive">
-            <table id="geojsoncontent" class="table align-items-center table-flush table-borderless"></table>
+            <table id="jsoncontent" class="table align-items-center table-flush table-borderless"></table>
+            <script type="module" src="data.js"></script>
           </div>
         </div>
       </div>

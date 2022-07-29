@@ -1,4 +1,4 @@
-var golfdata = {
+{
     "type": "FeatureCollection",
     "crs": {
         "type": "name",
@@ -141,28 +141,4 @@ var golfdata = {
             }
         }
     ]
-};
-
-/*$(function () {
-    function update() {
-      map.removeLayer(layer)
-      $.getJSON("index.geojson").done(function (data) {
-        console.log(data);
-        layer.addData(data)
-        map.addLayer(layer)
-      })
-    }
-    setInterval(update, 10000),
-      update();
-  });*/
-
-window.onload = function() {
-    $.getJSON("GautrainComputeFolder/dashtreme-master/index.geojson").done(function (data) {
-        //console.log(data);
-        document.getElementById("geojsoncontent").innerHTML = "<tr><th>busId</th><th>Azimuth</th>";
-  
-        golfdata.features.forEach(function(entry) {
-            document.getElementById("geojsoncontent").innerHTML += "<tr><td>" + entry.properties.busId + "</td><td>" + entry.properties.Azimuth + "</td></tr>";
-        });
-      })
-};
+}
