@@ -44,12 +44,10 @@
 	
 	var theIcon = L.icon({
 		iconUrl: "bus-icon-13002.jpg",
-		//shadowUrl: "images/marker-shadow.png",
 		iconSize: [15, 15]
 	})
 	
         function onEachFeature(feature, layer) {
-        // does this feature have a property named popupContent?
         if (feature.properties && feature.properties.busId) {
             layer.bindTooltip("Bus ID: " + feature.properties.busId );
         }}
@@ -101,17 +99,17 @@
 		return "Bus ID: " + layer.feature.properties.busId + '<br> y = ' +layer.feature.geometry.coordinates[1] + '<br> x = ' + layer.feature.geometry.coordinates[0] + '<br> GPS Last updated Date: ' + layer.feature.properties.GPSLastupdatedDate + '<br> GPS Last updated Time: ' + layer.feature.properties.GPSLastupdatedTime + '<br> TimeStamp: ' + layer.feature.properties.Timestamp;
 	}).addTo(map)
 	
-        $(function() {
-		function update() {
-			map.removeLayer(layer)
-			$.getJSON("index.geojson").done(function (data) {
-				console.log(data);
-				layer.addData(data)
-				map.addLayer(layer)
-        		})
-		}
-		setInterval(update, 10000),
-		update();
+    $(function() {
+        function update() {
+            map.removeLayer(layer)
+            $.getJSON("index.geojson").done(function (data) {
+                console.log(data);
+                layer.addData(data)
+                map.addLayer(layer)
+                })
+        }
+        setInterval(update, 10000),
+        update();
 	});
 
         </script>
