@@ -1,7 +1,6 @@
 import myJson from './data.json' assert {type: 'json'};
 
 console.log(myJson.features);
-
 console.log(myJson.features.busId);
 console.log(myJson.features.TimeStamp);
 
