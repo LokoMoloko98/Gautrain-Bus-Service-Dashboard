@@ -1,7 +1,6 @@
 import latency from './latency.json' assert {type: 'json'};
 
-console.log(latency.features);
-console.log(latency.features.properties);
+//console.log(latency.features.API_Response_Time);
 
 $(function () {
 	"use strict";
@@ -175,7 +174,7 @@ $(function () {
 	
 	var update  = function () {
 				   config.data.datasets.forEach(function(dataset) {
-					dataset.value = latency.features.properties['API Response Time']
+					dataset.value = parseInt(latency.features.API_Response_Time);
 					//dataset.value = randomValue(dataset.data);
 					});
 					myGauge.update();

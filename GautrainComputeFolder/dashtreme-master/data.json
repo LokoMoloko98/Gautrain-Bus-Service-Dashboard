@@ -6,98 +6,38 @@
             "properties": {
                 "busId": "33045",
                 "Azimuth": "221",
-                "latitude": -26.03895,
-                "longitude": 28.120458,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496377",
+                "latitude": -26.038935,
+                "longitude": 28.12043,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982076",
                 "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
+                "GPSLastupdatedTime": "01:58"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.120458,
-                    -26.03895
+                    28.12043,
+                    -26.038935
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "busId": "33012",
-                "Azimuth": "12",
-                "latitude": -26.038905,
-                "longitude": 28.12062,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496430",
+                "busId": "33038",
+                "Azimuth": "143",
+                "latitude": -26.038202,
+                "longitude": 28.117252,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982124",
                 "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
+                "GPSLastupdatedTime": "01:58"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.12062,
-                    -26.038905
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "33009",
-                "Azimuth": "217",
-                "latitude": -26.038887,
-                "longitude": 28.12035,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496449",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.12035,
-                    -26.038887
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "32992",
-                "Azimuth": "245",
-                "latitude": -26.039222,
-                "longitude": 28.120127,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496465",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.120127,
-                    -26.039222
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "33039",
-                "Azimuth": "219",
-                "latitude": -26.039118,
-                "longitude": 28.120008,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496479",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.120008,
-                    -26.039118
+                    28.117252,
+                    -26.038202
                 ]
             }
         },
@@ -106,18 +46,58 @@
             "properties": {
                 "busId": "31595",
                 "Azimuth": "232",
-                "latitude": -26.039383,
-                "longitude": 28.12015,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496495",
+                "latitude": -26.039388,
+                "longitude": 28.120177,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982137",
                 "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
+                "GPSLastupdatedTime": "01:58"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.12015,
-                    -26.039383
+                    28.120177,
+                    -26.039388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "32992",
+                "Azimuth": "245",
+                "latitude": -26.03922,
+                "longitude": 28.120135,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982145",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120135,
+                    -26.03922
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "33039",
+                "Azimuth": "219",
+                "latitude": -26.039112,
+                "longitude": 28.12001,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982153",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.12001,
+                    -26.039112
                 ]
             }
         },
@@ -126,98 +106,38 @@
             "properties": {
                 "busId": "31945",
                 "Azimuth": "214",
-                "latitude": -26.039343,
-                "longitude": 28.120127,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496509",
+                "latitude": -26.03933,
+                "longitude": 28.120132,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982161",
                 "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
+                "GPSLastupdatedTime": "01:58"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.120127,
-                    -26.039343
+                    28.120132,
+                    -26.03933
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "busId": "31597",
-                "Azimuth": "220",
-                "latitude": -26.03951,
-                "longitude": 28.120068,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496524",
+                "busId": "33012",
+                "Azimuth": "12",
+                "latitude": -26.038913,
+                "longitude": 28.120618,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982169",
                 "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
+                "GPSLastupdatedTime": "01:58"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.120068,
-                    -26.03951
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "32994",
-                "Azimuth": "225",
-                "latitude": -26.038725,
-                "longitude": 28.120348,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496538",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.120348,
-                    -26.038725
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "33030",
-                "Azimuth": "353",
-                "latitude": -26.039078,
-                "longitude": 28.120187,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496553",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.120187,
-                    -26.039078
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "33027",
-                "Azimuth": "226",
-                "latitude": -26.03929,
-                "longitude": 28.120203,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496567",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.120203,
-                    -26.03929
+                    28.120618,
+                    -26.038913
                 ]
             }
         },
@@ -226,158 +146,38 @@
             "properties": {
                 "busId": "31951",
                 "Azimuth": "214",
-                "latitude": -26.03882,
-                "longitude": 28.120248,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496581",
+                "latitude": -26.038797,
+                "longitude": 28.120232,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982177",
                 "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
+                "GPSLastupdatedTime": "01:58"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.120248,
-                    -26.03882
+                    28.120232,
+                    -26.038797
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "busId": "31947",
-                "Azimuth": "215",
-                "latitude": -26.039422,
-                "longitude": 28.119973,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496595",
+                "busId": "31597",
+                "Azimuth": "220",
+                "latitude": -26.039485,
+                "longitude": 28.120062,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982184",
                 "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
+                "GPSLastupdatedTime": "01:58"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.119973,
-                    -26.039422
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "33010",
-                "Azimuth": "6",
-                "latitude": -26.03906,
-                "longitude": 28.120328,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496609",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.120328,
-                    -26.03906
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "31955",
-                "Azimuth": "242",
-                "latitude": -26.038833,
-                "longitude": 28.120535,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496624",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.120535,
-                    -26.038833
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "33004",
-                "Azimuth": "218",
-                "latitude": -26.038892,
-                "longitude": 28.120582,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496638",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.120582,
-                    -26.038892
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "33047",
-                "Azimuth": "219",
-                "latitude": -26.039003,
-                "longitude": 28.120473,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496652",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.120473,
-                    -26.039003
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "32993",
-                "Azimuth": "206",
-                "latitude": -26.039065,
-                "longitude": 28.12041,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496667",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.12041,
-                    -26.039065
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "busId": "33002",
-                "Azimuth": "265",
-                "latitude": -26.037613,
-                "longitude": 28.120988,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496681",
-                "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.120988,
-                    -26.037613
+                    28.120062,
+                    -26.039485
                 ]
             }
         },
@@ -386,18 +186,218 @@
             "properties": {
                 "busId": "31956",
                 "Azimuth": "211",
-                "latitude": -26.038723,
-                "longitude": 28.120665,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496695",
+                "latitude": -26.038712,
+                "longitude": 28.12066,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982192",
                 "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
+                "GPSLastupdatedTime": "01:58"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.120665,
-                    -26.038723
+                    28.12066,
+                    -26.038712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "33009",
+                "Azimuth": "217",
+                "latitude": -26.038863,
+                "longitude": 28.120338,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982199",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120338,
+                    -26.038863
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "33027",
+                "Azimuth": "226",
+                "latitude": -26.039245,
+                "longitude": 28.120217,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982207",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120217,
+                    -26.039245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "33030",
+                "Azimuth": "353",
+                "latitude": -26.039088,
+                "longitude": 28.120197,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982214",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120197,
+                    -26.039088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "33002",
+                "Azimuth": "265",
+                "latitude": -26.037565,
+                "longitude": 28.120993,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982221",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120993,
+                    -26.037565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "32994",
+                "Azimuth": "225",
+                "latitude": -26.038693,
+                "longitude": 28.120342,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982228",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120342,
+                    -26.038693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "33004",
+                "Azimuth": "218",
+                "latitude": -26.03889,
+                "longitude": 28.120588,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982235",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120588,
+                    -26.03889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "33047",
+                "Azimuth": "219",
+                "latitude": -26.038957,
+                "longitude": 28.120477,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982243",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120477,
+                    -26.038957
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "33010",
+                "Azimuth": "6",
+                "latitude": -26.039035,
+                "longitude": 28.120372,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982250",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120372,
+                    -26.039035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "32993",
+                "Azimuth": "206",
+                "latitude": -26.039077,
+                "longitude": 28.12041,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982257",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.12041,
+                    -26.039077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "31947",
+                "Azimuth": "215",
+                "latitude": -26.039413,
+                "longitude": 28.12,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982264",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.12,
+                    -26.039413
                 ]
             }
         },
@@ -406,17 +406,37 @@
             "properties": {
                 "busId": "31952",
                 "Azimuth": "216",
-                "latitude": -26.038822,
-                "longitude": 28.120505,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496710",
+                "latitude": -26.038817,
+                "longitude": 28.120507,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982271",
                 "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
+                "GPSLastupdatedTime": "01:58"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.120505,
+                    28.120507,
+                    -26.038817
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "busId": "31955",
+                "Azimuth": "242",
+                "latitude": -26.038822,
+                "longitude": 28.120527,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982279",
+                "GPSLastupdatedDate": "2022-07-30 ",
+                "GPSLastupdatedTime": "01:58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120527,
                     -26.038822
                 ]
             }
@@ -426,18 +446,18 @@
             "properties": {
                 "busId": "31946",
                 "Azimuth": "219",
-                "latitude": -26.039143,
-                "longitude": 28.120245,
-                "API Response Time": 5.0,
-                "Timestamp": "2022-07-30 03:11:40.496725",
+                "latitude": -26.03913,
+                "longitude": 28.12028,
+                "API_Response_Time": 3.0,
+                "Timestamp": "2022-07-30 03:58:36.982286",
                 "GPSLastupdatedDate": "2022-07-30 ",
-                "GPSLastupdatedTime": "01:11"
+                "GPSLastupdatedTime": "01:58"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.120245,
-                    -26.039143
+                    28.12028,
+                    -26.03913
                 ]
             }
         }

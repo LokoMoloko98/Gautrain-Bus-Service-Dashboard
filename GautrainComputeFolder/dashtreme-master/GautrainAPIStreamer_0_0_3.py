@@ -58,7 +58,7 @@ def bus_locate_call():
     df['Timestamp'] =  timestmp
     df['GPSLastupdatedDate'] = df['formattedLastModified'].str[26:37]
     df['GPSLastupdatedTime'] = df['formattedLastModified'].str[37:]
-    df = df.rename(columns={'response time':'API Response Time'})
+    df = df.rename(columns={'response time':'API_Response_Time'})
     df = df.drop(columns=['formattedLastModified'])
 
     return df
@@ -69,14 +69,14 @@ def bus_locate_call():
 
 gjnum = 0
 while(True):
-    geo_json = to_geojson(df=bus_locate_call(), lat='latitude', lon='longitude', properties=['busId', 'Azimuth','latitude', 'longitude', 'API Response Time', 'Timestamp', 'GPSLastupdatedDate',  'GPSLastupdatedTime'])
+    geo_json = to_geojson(df=bus_locate_call(), lat='latitude', lon='longitude', properties=['busId', 'Azimuth','latitude', 'longitude', 'API_Response_Time', 'Timestamp', 'GPSLastupdatedDate',  'GPSLastupdatedTime'])
     #data = bus_locate_call().to_json(orient='records')
 
 
     #write_geojson(geo_json, filename='API_call_outputs/GeolocateAPICall0.html', indent=4)
     write_geojson(geo_json, filename='GautrainComputeFolder/dashtreme-master/data.json', indent=4)
     write_geojson(geo_json, filename='GautrainComputeFolder/dashtreme-master/data.geojson', indent=4)
-    write_geojson(geo_json, filename='GautrainComputeFolder/dashtreme-master/latency.geojson', indent=4)
+    write_geojson(geo_json, filename='GautrainComputeFolder/dashtreme-master/latency.json', indent=4)
 
     print(f'Wrote dataset number {gjnum} to outputs.')
     gjnum = gjnum + 1
