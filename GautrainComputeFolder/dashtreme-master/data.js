@@ -1,8 +1,10 @@
-import myJson from './data.json' assert {type: 'json'};
+import myJson from './latency.json' assert {type: 'json'};
 
 console.log(myJson.features);
-console.log(myJson.features.busId);
-console.log(myJson.features.TimeStamp);
+// var data = Object.values(myJson.features)
+// console.log(data[0].properties.API_Response_Time)
+// console.log(data[0].properties.busId);
+// console.log(data[0].properties.Timestamp);
 
 window.onload = function() {
         
