@@ -242,7 +242,7 @@
 
         <div class="col-12 col-lg-6 col-xl-6">
           <div class="card">
-            <div class="card-header">API Latency</div>
+            <div class="card-header">API Response Time</div>
             <div class="card-body">
               <canvas id="gaugechart"></canvas>
               <script>
@@ -355,12 +355,12 @@
             <div class="table-responsive">
               <table id="jsoncontent" class="table align-items-center table-flush table-borderless"></table>
               <script>
-
                 $(function () {
                   function update() {
                     //document.getElementById("jsoncontent").innerHTML = "";
                     $.getJSON("latency.json").done(function (data) {
                       var time = Object.values(data.features);
+                      document.getElementById("jsoncontent").innerHTML = "<tr><th>Bus Id</th><th>GPS Last updated Date</th><th>GPS Last updated Time</th><th>Data Collection Timestamp</th><th>API Response Time</th><th>Bus Latitude</th><th>Bus Longitude</th>"
                       document.getElementById("jsoncontent").innerHTML = "";
                       time.forEach(function (entry) {
                         document.getElementById("jsoncontent").innerHTML += "<tr><td>" + entry.properties.busId + "</td><td>" + entry.properties.GPSLastupdatedDate + "</td><td>" + entry.properties.GPSLastupdatedTime + "</td><td>" + entry.properties.Timestamp + "</td><td>" + entry.properties.API_Response_Time + "</td><td>" + entry.properties.latitude + "</td><td>" + entry.properties.longitude + "</td></tr>";
