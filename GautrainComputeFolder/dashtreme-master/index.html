@@ -167,56 +167,7 @@
             <div class="card-header">GPS Coordinate Delays (BAR CHART)</div>
             <!--div class="card-body"></div-->
             <div class="table-responsive">
-              <table class="table align-items-center">
-                <tbody>
-                  <tr>
-                    <th>Bus ID</th>
-                    <th>latitude</th>
-                    <th>longitude</th>
-                  </tr>
-                  <tr>
-                    <td>33032</td>
-                    <td>-26.039373</td>
-                    <td>28.119843</td>
-                  </tr>
-                  <tr>
-                    <td>33027</td>
-                    <td>-26.039157</td>
-                    <td>28.119582</td>
-                  </tr>
-                  <tr>
-                    <td>33004</td>
-                    <td>-26.039155</td>
-                    <td>28.119793</td>
-                  </tr>
-                  <tr>
-                    <td>33004</td>
-                    <td>-26.039155</td>
-                    <td>28.119793</td>
-                  </tr>
-                  <tr>
-                    <td>33004</td>
-                    <td>-26.039155</td>
-                    <td>28.119793</td>
-                  </tr>
-                  <tr>
-                    <td>33004</td>
-                    <td>-26.039155</td>
-                    <td>28.119793</td>
-                  </tr>
-                  <tr>
-                    <td>33004</td>
-                    <td>-26.039155</td>
-                    <td>28.119793</td>
-                  </tr>
-                  <tr>
-                    <td>33004</td>
-                    <td>-26.039155</td>
-                    <td>28.119793</td>
-                  </tr>
-
-                </tbody>
-              </table>
+              <canvas id="myChart">
             </div>
           </div>
         </div>
@@ -359,7 +310,7 @@
                       datalabels: {
                         display: true,
                         formatter: function (value, context) {
-                          return context.chart.data.labels[context.dataIndex];
+                          return context.chart.data.labels[context.dataIndex] + "seconds";
                         },
                         //color: function (context) {
                         //  return context.dataset.backgroundColor;
