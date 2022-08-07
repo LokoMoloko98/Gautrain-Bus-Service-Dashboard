@@ -1,5 +1,6 @@
 # Gautrain Bus Service Operational Dashboard
-Project still in progress. Email me at molavovic@gmail.com to see a preview of the bus tracker.
+Project still in progress. 
+### View the dashboard at: http://ec2-13-246-116-154.af-south-1.compute.amazonaws.com/
 
 ![Gautrain Bus Service](/Images/2022-07-12_12-14.png)
 
