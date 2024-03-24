@@ -1,7 +1,5 @@
 # Gautrain Bus Service Operational Dashboard
-Project still in progress. 
-
-Note that the server hosting the dashboard will be down between 18:00 (UTC +2) and 09:00 (UTC +2). 
+Project was halted due to change in Final project topic. The plan is to revive it, with the aim to use a more modern architecture.
 
 ![Gautrain Bus Service](/Images/2022-07-12_12-14.png)
 
